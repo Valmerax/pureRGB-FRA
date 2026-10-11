@@ -4,7 +4,8 @@
 
 Une amélioration puriste de Pokémon Rouge, Vert et Bleu basée sur la décompilation de pokered.
 
-Cette version sera traduite en français en se basant sur les traductions de einstein95/pokered-fr (WIP), aucune autre modification sera faite, l'idée étant de rester fidèle au projet d'origine.
+Cette version est traduite en français à partir des traductions de einstein95/pokered-fr pour les textes du jeu original et de mes propres traductions pour les textes exclusifs à pureRGB.
+Aucune autre modification sera faite, l'idée étant de rester fidèle au projet d'origine.
 
 Pour télécharger la dernière version de cette romhack, [**allez ici**](https://github.com/Vortyne/pureRGB/releases/latest).
 
@@ -12,9 +13,11 @@ Pour voir la liste complète des fonctionnalités, corrections de bugs et tout l
 
 Si vous voulez des informations sur le jeu pendant que vous le jouez (par exemple, les capacités disponibles), consultez [**Le Wiki**](https://github.com/Vortyne/pureRGB/wiki).
 
-Si vous rencontrez un bug ou un problème en jouant, signalez-le [**ici**](https://github.com/Vortyne/pureRGB/issues/new?assignees=&labels=&template=blank_issue.md).
+Si vous rencontrez un bug ou un problème lié à la traduction française, signalez-le [**ici**](https://discord.com/channels/1558849314644697238/1558851662221672489) (serveur discord pureRGB-FRA de Valmerax).
 
-Si vous avez terminer le romhack et voulez laisser un avis, vous pouvez le faire [**ici**](https://github.com/Vortyne/pureRGB/issues/new?assignees=&labels=review&projects=&template=review.yml&title=%5BReview%5D%3A+Summarize+your+review+here).
+Pour tout autre bug ou problème en jeu, signalez-le [**ici**](https://github.com/Vortyne/pureRGB/issues/new?assignees=&labels=&template=blank_issue.md). (Dépôt pureRGB de Vortyne).
+
+Si vous avez terminer cette romhack et voulez laisser un avis, vous pouvez le faire [**ici**](https://github.com/Vortyne/pureRGB/issues/new?assignees=&labels=review&projects=&template=review.yml&title=%5BReview%5D%3A+Summarize+your+review+here).
 
 Ceci est une amélioration puriste de Pokemon Rouge/Bleu/Vert. L'objectif est d'améliorer les jeux originaux pour une excellente rejouabilité sans introduire de mécaniques, capacités, sprites, visuels, types ou pokémon qui ont été introduits dans les jeux ultérieurs.
 
