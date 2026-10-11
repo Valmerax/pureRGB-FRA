@@ -439,15 +439,15 @@ CeruleanBallDesignerClipboard2Text:
 	ld [wCurrentMenuItem], a
 .loopMenu
 	call DisableTextDelay
-	hlcoord 5, 6
-	lb bc, 5, 13
+	hlcoord 1, 6
+	lb bc, 5, 17
 	call TextBoxBorderUpdateSprites
-	hlcoord 7, 7
+	hlcoord 3, 7
 	ld de, WorkbenchInfoText
 	call PlaceString
 	ld a, 2
 	ld [wMaxMenuItem], a
-	ld a, 6
+	ld a, 2
 	ld [wTopMenuItemX], a
 	ld a, 7
 	ld [wTopMenuItemY], a
@@ -543,7 +543,7 @@ CeruleanBallDesignerSwitchBallMenu:
 	CheckEvent EVENT_UNLOCKED_AT_LEAST_ONE_CUSTOM_BALL
 	jr z, .skipFirstEntryCustomBall
 	callfar CopyCustomBallNamesFromSRAM
-	hlcoord 5, 4
+	hlcoord 3, 4
 	ld de, .customBallOptionText
 	call PlaceString
 .skipFirstEntryCustomBall

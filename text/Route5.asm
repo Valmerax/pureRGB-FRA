@@ -12,8 +12,8 @@ _Route5BattleText1::
 	done
 
 _Route5EndBattleText1::
-	text "Je vais devenir"
-	line "meilleur!"
+	text "Je vais"
+	line "devenir meilleur!"
 	para "Ce n'est qu'une"
 	line "question de temps!"
 	prompt
@@ -68,8 +68,9 @@ _Route5BattleText3::
 	done
 
 _Route5EndBattleText3::
-	text "Elever des #MON"
-	line "est difficile."
+	text "Elever des"
+	line "#MON, c'est"
+	cont "difficile."
 	prompt
 
 _Route5AfterBattleText3::
@@ -77,7 +78,7 @@ _Route5AfterBattleText3::
 	line "à élever un"
 	cont "#MON."
 	para "Reviens plus tard,"
-	line "il sera plus fort!"
+	line "il aura grandi!"
 	done
 
 _Route5SquirtleLearnset::
@@ -97,8 +98,9 @@ _Route5BattleText4::
 	done
 
 _Route5EndBattleText4::
-	text "Je vais continuer"
-	line "à marcher."
+	text "Je vais"
+	line "continuer à"
+	cont "marcher."
 	prompt
 
 _Route5AfterBattleText4::

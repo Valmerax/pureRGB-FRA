@@ -28,7 +28,7 @@ _Route5BugCatcherText::
 	line "chapeau de paille"
 	cont "et une bonne"
 	cont "journée de"
-	cont "boulot!"
+	cont "travail!"
 	para "Je bosse pour la"
 	line "PENSION."
 	done

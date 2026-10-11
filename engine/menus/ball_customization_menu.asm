@@ -945,7 +945,7 @@ BallSFXCustomizationMenu:
 	jp IsCustomBallMenuItemUnlocked
 
 BallSpecialCustomizationMenuText::
-	db "Inverser Couleurs@"
+	db "Inv. Couleurs@"
 	db "Ecran Sombre@"
 	db "Ecran Clair@"
 
@@ -954,10 +954,10 @@ BallSpecialCustomizationMenu:
 	push af
 	xor a
 	ld [wCurrentMenuItem], a
-	hlcoord 2, 10
-	lb bc, 3, 15
+	hlcoord 1, 10
+	lb bc, 3, 16
 	call TextBoxBorder
-	hlcoord 4, 11
+	hlcoord 3, 11
 	ld de, BallSpecialCustomizationMenuText
 	ld b, 3
 	call PlaceMenuStrings
@@ -1042,7 +1042,7 @@ BallSpecialCustomizationMenu:
 .skipScreen
 	lb de, 47, 86
 	call LoadBallTileOAM
-	lb bc, 3, 11
+	lb bc, 2, 11
 	ld a, 2
 	jp CustomBallHandleInputInitMaxItems
 
@@ -1066,7 +1066,7 @@ VizualizeBallAnimation:
 	hlcoord 0,0
 	lb bc, 1, 18
 	call TextBoxBorder
-	hlcoord 2, 1
+	hlcoord 1, 1
 	ld de, VisualizationTitle
 	call PlaceString
 .replayAnimation
