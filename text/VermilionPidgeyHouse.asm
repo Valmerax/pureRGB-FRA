@@ -19,7 +19,7 @@ _VermilionPidgeyHouseYoungsterLearnset::
 	prompt
 
 _VermilionPidgeyHousePidgeyText::
-	text "ROUCOOL: Rourou!@"
+	text "ROUCOOL: Rourou!"
 	done
 
 _VermilionPidgeyHouseLetterText::

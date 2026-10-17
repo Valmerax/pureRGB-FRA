@@ -5,7 +5,8 @@ _UndergroundPathNorthSouthBattleText1::
 	done
 
 _UndergroundPathNorthSouthEndBattleText1::
-	text "Pas mal!"
+	text "Pas"
+	line "mal!"
 	prompt
 
 _UndergroundPathNorthSouthAfterBattleText1::
@@ -43,7 +44,8 @@ _UndergroundPathNorthSouthBattleText3::
 	done
 
 _UndergroundPathNorthSouthEndBattleText3::
-	text "T'es doué!"
+	text "T'es"
+	line "doué!"
 	prompt
 
 _UndergroundPathNorthSouthAfterBattleText3::

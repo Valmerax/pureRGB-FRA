@@ -137,7 +137,7 @@ _PokemonFanClubNoStoryText::
 _PokemonFanClubChairFinalText::
 	text "Salut, <PLAYER>!"
 
-	para "tu es venu pour"
+	para "Tu es venu pour"
 	line "écouter mes"
 	cont "histoires de"
 	cont "#MON?"

@@ -1503,7 +1503,7 @@ _KinesisDexEntry::
 
 	bage "Cause la brûlure"
 	next "en cas de contact,"
-	next "sauf le type FEU."
+	next "sauf au type FEU."
 
 	bage "A chaque fois que"
 	next "l'attaque touche"

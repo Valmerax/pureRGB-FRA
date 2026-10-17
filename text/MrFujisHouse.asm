@@ -52,7 +52,7 @@ _MrFujisHousePsyduck2Text::
 	done
 
 _MrFujisHouseNidorinoText::
-	text "NIDORINO: Nido!@"
+	text "NIDORINO: Nido!"
 	done
 
 _MrFujisHouseNidorino2Text::

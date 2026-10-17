@@ -120,7 +120,8 @@ _Route6BattleText7::
 	done
 
 _Route6EndBattleText7::
-	text "Que dois-je faire?"
+	text "Que dois-"
+	line "je faire?"
 	prompt
 
 _Route6AfterBattleText7::
