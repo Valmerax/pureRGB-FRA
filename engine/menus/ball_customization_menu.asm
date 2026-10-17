@@ -1234,19 +1234,19 @@ CeruleanBallDesignerPhotoHintMenu::
 	ld [wCurrentMenuItem], a
 	call DisableTextDelay
 	hlcoord 0, 0
-	lb bc, 1, 5
+	lb bc, 1, 7
 	call TextBoxBorder
 	hlcoord 1, 1
 	ld de, CeruleanBallDesignerHintText
 	call PlaceString
-	hlcoord 7, 0
-	lb bc, 16, 11
+	hlcoord 9, 0
+	lb bc, 16, 9
 	call TextBoxBorder
 	call UpdateSprites
 	ld a, 1
 	ld [w2CharStringBuffer], a
 	ld c, a
-	hlcoord 9, 1
+	hlcoord 11, 1
 .loopPrintPhotoOptions
 	push bc
 	push hl
@@ -1255,7 +1255,7 @@ CeruleanBallDesignerPhotoHintMenu::
 	jr z, .noXMark
 	pop hl
 	push hl
-	ld de, 9 ; length of "Photo Hint" text + number beside it
+	ld de, 7 ; length of "Photo Hint" text + number beside it
 	add hl, de
 	ld [hl], '×'
 .noXMark
@@ -1265,7 +1265,7 @@ CeruleanBallDesignerPhotoHintMenu::
 	call PlaceString
 	pop hl
 	push hl
-	ld de, 6 ; length of "Photo Hint" text
+	ld de, 5 ; length of "Photo Hint" text
 	add hl, de
 	ld de, w2CharStringBuffer
 	lb bc, 1, 2
@@ -1282,14 +1282,12 @@ CeruleanBallDesignerPhotoHintMenu::
 	; check if we should hide hint 16 due to not unlocking the others
 	call IsFinalPhotoUnlocked
 	jr nc, .loopHandleMenuInput
-	hlcoord 9, 16
+	hlcoord 11, 16
 	ld de, LockedText
 	call PlaceString
-	hlcoord 16, 16
-	ld [hl], ' '
 .loopHandleMenuInput
 	call EnableTextDelay
-	lb bc, 8, 1
+	lb bc, 10, 1
 	call CustomBallHandleInputInit
 	call HandleMenuInput
 	bit B_PAD_B, a
@@ -1360,7 +1358,7 @@ CeruleanBallDesignerPhotoHintMenu::
 CeruleanBallDesignerPhotoText:
 	db "Photo @"
 CeruleanBallDesignerHintText:
-	db "<ASTUCE>@"
+	db "INDICES@"
 
 ; Each ref is expected to be TEXT_FAR_TABLE_ENTRY_SIZE bytes long with a single text far end in the correct order
 ; Do not separate the below entries or change order
