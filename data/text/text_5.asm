@@ -73,42 +73,38 @@ _PocketAbraFlavorText2::
 
 _PocketAbraFlavorText3::
 	text_ram wPocketAbraNick
-	text " s'est"
-	line "assoupi dans"
-	cont "votre sac."
+	text " s'est assoupi"
+	line "dans votre sac."
 	prompt
 
 _PocketAbraFlavorText4::
 	text_ram wPocketAbraNick
-	text " s'est"
-	line "installé sur"
-	cont "votre épaule."
+	text " s'est installé"
+	line "sur votre épaule."
 	prompt
 
 _PocketAbraFlavorText5::
 	text_ram wPocketAbraNick
-	text " se"
-	line "concentre à fond!"
+	text " se concentre"
+	line "à fond!"
 	prompt
 
 _PocketAbraFlavorText6::
 	text_ram wPocketAbraNick
-	text " prend"
-	line "une pose héroïque!"
+	text " prend une"
+	line "pose héroïque!"
 	prompt
 
 _PocketAbraFlavorText7::
 	text_ram wPocketAbraNick
-	text_start
-	line "grignote ta"
-	cont "nourriture!"
+	text " grignote ta"
+	line "nourriture!"
 	prompt
 
 _PocketAbraFlavorText8::
 	text_ram wPocketAbraNick
-	text_start
-	line "consulte ton"
-	cont "#DEX!"
+	text " consulte ton"
+	line "#DEX!"
 	prompt
 
 _PocketAbraNo::

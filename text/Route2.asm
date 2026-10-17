@@ -17,8 +17,8 @@ _Route2BattleText1::
 	done
 
 _Route2EndBattleText1::
-	text "Perdre ne me"
-	line "dérange pas!"
+	text "Perdre ne"
+	line "me dérange pas!"
 	prompt
 
 _Route2AfterBattleText1::
@@ -57,8 +57,9 @@ _Route2BattleText2::
 	done
 
 _Route2EndBattleText2::
-	text "Pas assez de"
-	line "TAUPIQUEUR!"
+	text "Pas"
+	line "assez de"
+	cont "TAUPIQUEUR!"
 	prompt
 
 _Route2AfterBattleText2::
@@ -79,7 +80,8 @@ _Route2BattleText3::
 	done
 
 _Route2EndBattleText3::
-	text "Fais attention!"
+	text "Fais"
+	line "attention!"
 	prompt
 
 _Route2AfterBattleText3::

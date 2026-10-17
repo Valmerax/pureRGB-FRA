@@ -236,8 +236,8 @@ _CeruleanBallDesignerNewPhoto::
 	prompt
 
 _CeruleanBallDesignerWait::
-	text "!!!"
-	line "Attends une sec<...>"
+	text "!!! Attends"
+	line "une seconde<...>"
 	prompt
 
 _CeruleanBallDesignerEureka::
