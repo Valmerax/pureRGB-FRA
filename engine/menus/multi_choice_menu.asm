@@ -82,21 +82,28 @@ TwoOptionSmallMenu::
 	hlcoord 15, 8 ; where the list will be drawn at
 	jp DoneDrawFunc
 
+ThreeOptionMenuBig::
+	ld c, 18 ; width
+	jr ThreeOptionMenuCommon
+
 ThreeOptionMenu::
+	ld c, 13 ; width
+	; fall through
+ThreeOptionMenuCommon::
 	ld a, 2 ; 3-item menu (0 counts)
 	ld [wListCount], a
 	ld [wMaxMenuItem], a
 
 	ld a, 6
 	ld [wTopMenuItemY], a
-	ld a, 5
+	ld a, 1
 	ld [wTopMenuItemX], a
 
-	hlcoord 4, 5
-	lb bc, 5, 13  ; height, width
+	hlcoord 0, 5
+	ld b, 5  ; height
 	call TextBoxBorder
 
-	hlcoord 6, 6 ; where the list will be drawn at
+	hlcoord 2, 6 ; where the list will be drawn at
 	jp DoneDrawFunc
 
 InitThreeOptionMenuSmall::
@@ -129,7 +136,7 @@ ThreeOptionMenuSmallLower::
 
 
 FourOptionMenuBig::
-	ld c, 14 ; width
+	ld c, 18 ; width
 	jr FourOptionMenuCommon
 
 FourOptionMenu::
@@ -142,14 +149,14 @@ FourOptionMenuCommon::
 
 	ld a, 4
 	ld [wTopMenuItemY], a
-	ld a, 5
+	ld a, 1
 	ld [wTopMenuItemX], a
 
-	hlcoord 4, 3
+	hlcoord 0, 3
 	ld b, 7  ; height
 	call TextBoxBorder
 
-	hlcoord 6, 4 ; where the list will be drawn at
+	hlcoord 2, 4 ; where the list will be drawn at
 	jp DoneDrawFunc
 
 FiveOptionMenu::
@@ -317,7 +324,7 @@ CeladonMartCallMomQuestion2::
 	next "C'est du jeu!@"
 
 CeladonMartCallMomQuestion3::
-	dw FourOptionMenu
+	dw FourOptionMenuBig
 	db "Boulettes de riz"
 	next "Beignets fourrés"
 	next "Poitrine de boeuf"
@@ -345,14 +352,14 @@ BillsGardenBlueThanks::
 	next "Tu rêves.@"
 
 TreeDeleterOptions::
-	dw FourOptionMenuBig
+	dw FourOptionMenu
 	db "ROUTE 2"
 	next "AZURIA"
 	next "ROUTE 9"
 	next "PARMANIE@"
 
 SafariTypeOptions::
-	dw ThreeOptionMenu
+	dw ThreeOptionMenuBig
 	db "CLASSIQUE"
 	next "CHASSE AU RANGER"
 	next "EXPLORATION LIBRE@"
@@ -474,11 +481,11 @@ ConversionMenu::
 	next "DEFENSE@"
 
 SSAnneFoodMenu::
-	dw FourOptionMenu
+	dw FourOptionMenuBig
 	db "Pâté d'anguilles"
 	next "Côtes de boeuf"
 	next "Salade de saumon"
-	next "Tarte aux cerises@"
+	next "Clafoutis@"
 
 RocketPasswordMenu::
 	dw FourOptionMenu
