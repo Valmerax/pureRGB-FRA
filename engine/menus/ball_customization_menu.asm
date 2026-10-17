@@ -186,7 +186,7 @@ BallCustomizationMenu::
 	dec b
 	jr nz, .loopPlaceString
 	; place arrows at a specific tile column
-	hlcoord 8, 4
+	hlcoord 9, 4
 	ld de, SCREEN_WIDTH
 	ld b, 5 ; number of menu entries where we will print their current selected option
 .loopPlaceArrows
@@ -546,8 +546,6 @@ BallTileCustomizationMenu:
 	ld de, BallTileCustomizationMenuText
 	ld c, BALL_CUSTOM_FORMAT_TILE
 	call PlaceChildMenuStrings
-	hlcoord 8, 4
-	ld [hl], '→'
 .loopMenu
 	ld a, BALL_TILE_HOVER_DATA
 	ld [wListMenuHoverTextType], a
@@ -706,8 +704,6 @@ BallColorCustomizationMenu:
 	ld de, BallColorCustomizationMenuText
 	ld c, BALL_CUSTOM_FORMAT_COLOR
 	call PlaceChildMenuStrings
-	hlcoord 8, 5
-	ld [hl], '→'
 .loopMenu
 	ld a, BALL_COLOR_HOVER_DATA
 	ld [wListMenuHoverTextType], a
@@ -776,8 +772,6 @@ BallThrowAnimCustomizationMenu:
 	ld de, BallThrowAnimCustomizationMenuText
 	ld c, BALL_CUSTOM_FORMAT_THROW
 	call PlaceChildMenuStrings
-	hlcoord 8, 6
-	ld [hl], '→'
 .loopMenu
 	call InitChildMenuInput
 	call HandleMenuInput
@@ -839,8 +833,6 @@ BallPoofAnimCustomizationMenu:
 	ld de, BallPoofAnimCustomizationMenuText
 	ld c, BALL_CUSTOM_FORMAT_POOF
 	call PlaceChildMenuStrings
-	hlcoord 8, 8
-	ld [hl], '→'
 .loopMenu
 	call InitChildMenuInput
 	call HandleMenuInput
@@ -901,8 +893,6 @@ BallSFXCustomizationMenu:
 	ld de, BallSFXCustomizationMenuText
 	ld c, BALL_CUSTOM_FORMAT_SFX
 	call PlaceChildMenuStrings
-	hlcoord 8, 7
-	ld [hl], '→'
 .loopMenu
 	call InitChildMenuInput
 	call HandleMenuInput
