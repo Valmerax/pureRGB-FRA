@@ -138,7 +138,8 @@ _GymSignGenericText::
 	text_ram_stringbuffer
 	text_start
 	line "ARENE #MON"
-	cont "CHAMPION: @"
+	cont "CHAMPION:"
+	cont "@"
 	text_ram_namebuffer
 	text_end
 
