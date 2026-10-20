@@ -123,8 +123,9 @@ _Route10BattleText7::
 	done
 
 _Route10EndBattleText7::
-	text "Je me suis fait"
-	line "arroser!"
+	text "Je me"
+	line "suis fait"
+	cont "arroser!"
 	prompt
 
 _Route10AfterBattleText7::

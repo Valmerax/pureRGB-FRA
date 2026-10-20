@@ -92,7 +92,7 @@ _FuchsiaTreeDeleterFinalText::
 
 _FuchsiaTreeDeleterFinalText2::
 	text "J'ai plein d'arbres"
-	cont "en pot ici."
+	line "en pot ici."
 
 	para "C'est là que je"
 	line "garde ceux que"

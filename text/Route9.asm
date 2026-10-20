@@ -136,7 +136,7 @@ _Route9Hiker2AfterBattleText::
 
 _GeodudeLearnset::
 	text "Robuste, comme"
-	cont "mon @"
+	line "mon @"
 	text_ram_namebuffer
 	text "!"
 	para "Voilà un choix de"

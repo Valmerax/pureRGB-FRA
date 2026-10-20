@@ -209,7 +209,7 @@ _RockTunnelPokecenterBenchGuyText::
 
 _SafariZoneTiredGuyText::
 	text "La fatigue<...>"
-	cont "Doucement<...>"
+	line "Doucement<...>"
 	cont "Me gagne<...>"
 	done
 

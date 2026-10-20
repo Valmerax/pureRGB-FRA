@@ -135,9 +135,9 @@ _DiamondMineWeeksOfWork::
 	cont "@"
 	text_ram_namebuffer
 	text " ont"
-	cont "passé des semaines"
-	cont "à creuser la"
-	cont "roche."
+	cont "passé des"
+	cont "semaines à"
+	cont "creuser la roche."
 	para "Bientôt, seul"
 	line "@"
 	text_ram_namebuffer

@@ -26,7 +26,7 @@ _VermilionGymLTSurgePreBattleText::
 	done
 
 _VermilionGymGarbageNearSurgeText::
-	text "Une canette vide"
+	text "Une conserve vide"
 	line "dans la poubelle."
 	para "C'est écrit:"
 	line "RATION DE COMBAT"
