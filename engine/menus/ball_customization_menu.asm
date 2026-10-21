@@ -1206,7 +1206,7 @@ CheckInvertBallStatusScreenColor::
 LoadStatusScreenPokeball::
 	ld hl, wShadowOAMSprite36TileID
 	ld b, 4
-	ld a, $D0
+	ld a, $C5
 .loop
 	ld [hl], a
 	inc hl

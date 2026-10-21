@@ -94,13 +94,17 @@ StatusScreen:
 	ld hl, vChars2 tile $72
 	lb bc, BANK(PTile), 1
 	call CopyVideoDataHBlankDouble ; bold P (for PP)
-	; copy the apex prompt and the stat exp prompt, which is next to it in memory
-	ld hl, vFont tile 73
+	; apex prompt
+	ld hl, vFont tile 100
 	ld de, ApexPrompt
-	lb bc, BANK(ApexPrompt), 7
+	lb bc, BANK(ApexPrompt), 2
 	call CopyVideoDataHBlankDouble
-	ASSERT BANK(StatExpPrompt) == BANK(ApexPrompt)
-	ld hl, vFont tile 80
+	; stat exp prompt
+	ld hl, vFont tile 64
+	ld de, StatExpPrompt
+	lb bc, BANK(StatExpPrompt), 5
+	call CopyVideoDataHBlankDouble
+	ld hl, vFont tile 69
 	ld de, PokeBallSprite
 	lb bc, BANK(PokeBallSprite), 4
 	call CopyVideoDataHBlank
@@ -178,9 +182,9 @@ StatusScreen:
 	jr nc, .notMaxDVs2
 	; set APEX prompt near the pokemon's stats
 	hlcoord 7, 8
-	ld [hl], $C9
+	ld [hl], $E4
 	inc hl
-	ld [hl], $CA
+	ld [hl], $E5
 .notMaxDVs2
 ;;;;;
 	ld a, [wOnSGB] ; can't customize the color of pokeballs when on GB, so no point in showing them
@@ -610,17 +614,17 @@ ToggleStatData:
 	jr z, .normalStats
 	ld d, 2
 	hlcoord 1, 17
-	ld [hl], $CB
+	ld [hl], $C0
 	inc hl
-	ld [hl], $CC
+	ld [hl], $C1
 	inc hl
-	ld [hl], $CE
+	ld [hl], $C3
 	inc hl
-	ld [hl], $CF
+	ld [hl], $C4
 	jr .donePrompt
 .normalStats
 	hlcoord 3, 17
-	ld [hl], $CD
+	ld [hl], $C2
 	inc hl
 	ld [hl], $7A
 .donePrompt
