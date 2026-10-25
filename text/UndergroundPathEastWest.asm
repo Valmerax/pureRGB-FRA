@@ -26,7 +26,8 @@ _UndergroundPathWestEastBattleText2::
 	done
 
 _UndergroundPathWestEastEndBattleText2::
-	text "Dépêchons-nous!"
+	text ""
+	line "Dépêchons-nous!"
 	prompt
  
 _UndergroundPathWestEastAfterBattleText2::

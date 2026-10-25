@@ -46,8 +46,9 @@ _CeladonHotelBattleText1::
 	done
 
 _CeladonHotelEndBattleText1::
-	text "Partez, esprits"
-	line "maléfiques!"
+	text "Partez,"
+	line "esprits"
+	cont "maléfiques!"
 	prompt
 
 _CeladonHotelAfterBattleText1::

@@ -100,7 +100,7 @@ MrFujisHouseNidorinoText:
 	text_far_end _MrFujisHouseNidorino2Text
 
 RescuerName::
-	db "RESCUERs@"
+	db "BENEVOLE@"
 
 MrFujisHouseMrFujiText:
 	text_asm

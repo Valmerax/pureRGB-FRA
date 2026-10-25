@@ -42,8 +42,8 @@ _Mansion1BattleText3::
 	done
 
 _Mansion1EndBattleText3::
-	text "Allez, vas-y"
-	line "alors."
+	text "Allez,"
+	line "vas-y alors."
 	prompt
 
 _Mansion1AfterBattleText3::
@@ -67,7 +67,8 @@ _Mansion1BattleText4::
 	done
 
 _Mansion1EndBattleText4::
-	text "Je me tire d'ici!"
+	text "Je me"
+	line "tire d'ici!"
 	prompt
 
 _Mansion1AfterBattleText4::

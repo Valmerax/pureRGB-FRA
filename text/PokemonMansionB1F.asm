@@ -36,7 +36,8 @@ _Mansion4BattleText3::
 	done
 
 _Mansion4EndBattleText3::
-	text "Je m'en vais!!"
+	text "Je"
+	line "m'en vais!!"
 	prompt
 
 _Mansion4AfterBattleText3::
@@ -53,8 +54,8 @@ _Mansion4BattleText4::
 	done
 
 _Mansion4EndBattleText4::
-	text "Tu sais comment"
-	line "on sort?"
+	text "Tu sais"
+	line "comment on sort?"
 	prompt
 
 _Mansion4AfterBattleText4::

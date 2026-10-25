@@ -51,8 +51,9 @@ _SafariZoneNorthRangerText::
 	done
 
 _SafariZoneNorthRangerEndBattleText::
-	text "Whoa, redoutables"
-	line "#MON!"
+	text "Whoa,"
+	line "redoutables"
+	cont "#MON!"
 	prompt
 
 _SafariZoneNorthRangerAfterBattleText::
@@ -81,9 +82,10 @@ _SafariZoneNorthJugglerText::
 	done
 
 _SafariZoneNorthJugglerEndBattleText::
-	text "Ouais, les combats"
-	line "n'ont jamais été"
-	cont "mon point fort."
+	text "Ouais,"
+	line "les combats n'ont"
+	cont "jamais été mon"
+	cont "point fort."
 	prompt
 
 _SafariZoneNorthJugglerAfterBattleText::
@@ -141,8 +143,9 @@ _SafariZoneNorthSuperNerdText::
 	done
 
 _SafariZoneNorthSuperNerdEndBattleText::
-	para "Je dois trouver"
-	line "des objets!"
+	para "Je dois"
+	line "trouver des"
+	cont "objets!"
 	para "Je dois trouver"
 	line "des objets!!"
 	prompt
@@ -208,9 +211,10 @@ _SafariZoneNorthManiacText::
 	done
 
 _SafariZoneNorthManiacEndBattleText::
-	text "Règle numéro deux!"
-	line "Perds toujours"
-	cont "avec classe!"
+	text "Règle"
+	line "numéro deux!"
+	para "Perds toujours"
+	line "avec classe!"
 	prompt
 
 _SafariZoneNorthManiacAfterBattleText::

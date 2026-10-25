@@ -6,8 +6,9 @@ _SecretLabBattleText1::
 	done
 
 _SecretLabEndBattleText1::
-	text "J'ai besoin de"
-	line "renforts ici!"
+	text "J'ai"
+	line "besoin de"
+	cont "renforts ici!"
 	prompt
 
 _SecretLabAfterBattleText1::
@@ -25,8 +26,9 @@ _SecretLabBattleText2::
 	done
 
 _SecretLabEndBattleText2::
-	text "Une puissance"
-	line "écrasante!"
+	text "Une"
+	line "puissance"
+	cont "écrasante!"
 	prompt
 
 _SecretLabAfterBattleText2::
@@ -53,8 +55,9 @@ _SecretLabBattleText3::
 	done
 
 _SecretLabEndBattleText3::
-	text "Eh bien, ça me"
-	line "laisse sans voix!"
+	text "Eh bien,"
+	line "ça me laisse sans"
+	cont "voix!"
 	prompt
 
 _SecretLabAfterBattleText3::

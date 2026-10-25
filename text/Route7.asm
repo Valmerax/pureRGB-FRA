@@ -10,8 +10,8 @@ _Route7BattleText1::
 	done
 
 _Route7EndBattleText1::
-	text "Tu ne me crois"
-	line "pas?"
+	text "Tu ne me"
+	line "crois pas?"
 	prompt
 
 _Route7AfterBattleText1::
@@ -34,7 +34,8 @@ _Route7BattleText2::
 	done
 
 _Route7EndBattleText2::
-	text "Ecoute-moi!"
+	text "Ecoute-"
+	line "moi!"
 	prompt
 
 _Route7AfterBattleText2::

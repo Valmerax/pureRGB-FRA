@@ -85,8 +85,8 @@ _SafariZoneCenterJugglerText::
 	done
 
 _SafariZoneCenterJugglerEndBattleText::
-	text "Appelle-moi"
-	line "“Le Matador”!"
+	text "Appelle-"
+	line "moi “Le Matador”!"
 	prompt
 
 _SafariZoneCenterJugglerAfterBattleText::
@@ -113,8 +113,9 @@ _SafariZoneCenterManiacText::
 	done
 
 _SafariZoneCenterManiacEndBattleText::
-	text "Mon équipe n'est"
-	line "pas finie!"
+	text "Mon"
+	line "équipe n'est pas"
+	cont "finie!"
 	prompt
 
 _SafariZoneCenterManiacAfterBattleText::

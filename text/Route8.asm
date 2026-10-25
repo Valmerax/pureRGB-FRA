@@ -59,15 +59,14 @@ _MukLearnset::
 	prompt
 
 _MukLearnset2::
-	text "Les @"
+	text "@"
 	text_ram wTrainerName
-	text_start
-	line "ont dévoilé leur"
-	cont "stratégie de"
+	text " a dévoilé"
+	line "sa stratégie de"
 	cont "combat<...>"
-	para "Ils l'ont dit à"
-	line "voix haute pour"
-	cont "que tout le monde"
+	para "Il l'a dit à voix"
+	line "haute pour que"
+	cont "tout le monde"
 	cont "entende."
 	para "Sans le vouloir,"
 	line "tu en sais long"
@@ -145,7 +144,7 @@ _Route8CooltrainerF2AfterBattleText::
 _LearnsetMeowth::
 	text "Mais les chats"
 	line "sont les plus"
-	cont "cool!"
+	cont "mignons!"
 	para "Ils se blottissent"
 	line "et adorent les"
 	cont "câlins!"

@@ -88,7 +88,8 @@ _Route18BattleText5::
 	done
 
 _Route18EndBattleText5::
-	text "Réduit au silence!"
+	text "Réduit au"
+	line "silence!"
 	prompt
 
 _Route18AfterBattleText5::

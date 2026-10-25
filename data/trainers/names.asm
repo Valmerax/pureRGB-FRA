@@ -51,7 +51,7 @@ TrainerNames::
 	li "RANGER"
 	li "RECRUE"
 	li "SOLDAT"
-	li "CHIEF"
+	li "CHEF"
 	li "GUIDE"
 	li "PRO FITNESS"
 	li "SPRINTER"

@@ -186,8 +186,9 @@ _Route12BattleText8::
 	done
 
 _Route12EndBattleText8::
-	text "Garde les yeux"
-	line "rivés sur l'eau!"
+	text "Garde"
+	line "les yeux rivés"
+	cont "sur l'eau!"
 	prompt
 
 _Route12AfterBattleText8::
@@ -215,8 +216,8 @@ _Route12BattleText9::
 	done
 
 _Route12EndBattleText9::
-	text "Ne tombe pas à"
-	line "l'eau!"
+	text "Ne tombe"
+	line "pas à l'eau!"
 	prompt
 
 _Route12AfterBattleText9::
@@ -249,8 +250,9 @@ _Route12MetronomeGamblerText::
 	done
 
 _Route12MetronomeGamblerEndBattleText::
-	text "Aucune chance face"
-	line "au talent!"
+	text "Aucune"
+	line "chance face au"
+	cont "talent!"
 	para "Hé, l'ami!"
 	para "Et si j'apprenais"
 	line "METRONOME à ton"

@@ -26,8 +26,8 @@ _SafariZoneEastRangerText::
 	done
 
 _SafariZoneEastRangerEndBattleText::
-	text "Passe une bonne"
-	line "journée!"
+	text "Passe une"
+	line "bonne journée!"
 	prompt
 
 _SafariZoneEastRangerAfterBattleText::
@@ -53,8 +53,9 @@ _SafariZoneEastPsychicText::
 	done
 
 _SafariZoneEastPsychicEndBattleText::
-	text "Humilié, je me"
-	line "résigne à un état"
+	text ""
+	line "Humilié, je me"
+	cont "résigne à un état"
 	cont "de contemplation"
 	cont "silencieuse."
 	prompt
@@ -81,8 +82,9 @@ _SafariZoneEastRockerText::
 	done
 
 _SafariZoneEastRockerEndBattleText::
-	text "Le heavy metal ne"
-	line "meurt jamais!"
+	text "Le heavy"
+	line "metal ne meurt"
+	cont "jamais!"
 	prompt
 
 _SafariZoneEastRockerAfterBattleText::
@@ -114,8 +116,9 @@ _SafariZoneEastCooltrainerMText::
 	done
 
 _SafariZoneEastCooltrainerMEndBattleText::
-	text "Je suis aveuglé"
-	line "par l'amour!"
+	text "Je"
+	line "suis aveuglé"
+	cont "par l'amour!"
 	prompt
 
 _SafariZoneEastCooltrainerMAfterBattleText::

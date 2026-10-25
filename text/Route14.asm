@@ -202,7 +202,8 @@ _Route14BattleText11::
 	done
 
 _Route14EndBattleText11::
-	text "Pousse!"
+	text ""
+	line "Pousse!"
 	prompt
 
 _Route14AfterBattleText11::

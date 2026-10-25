@@ -74,7 +74,8 @@ _SafariZoneWestRanger1Text::
 	done
 
 _SafariZoneWestRanger1EndBattleText::
-	text "Je dois t'adouber?"
+	text "Je dois"
+	line "t'adouber?"
 	prompt
 
 _SafariZoneWestRanger1AfterBattleText::
@@ -97,8 +98,8 @@ _SafariZoneWestBurglarText::
 	done
 
 _SafariZoneWestBurglarEndBattleText::
-	text "Je me suis fait"
-	line "plumer!"
+	text "Je me"
+	line "suis fait plumer!"
 	prompt
 
 _SafariZoneWestBurglarAfterBattleText::
@@ -126,8 +127,9 @@ _SafariZoneWestManiacText::
 	done
 
 _SafariZoneWestManiacEndBattleText::
-	text "Erreur,"
-	line "interruption!"
+	text ""
+	line "Erreur,"
+	cont "interruption!"
 	prompt
 
 _SafariZoneWestManiacAfterBattleText::
@@ -155,8 +157,8 @@ _SafariZoneWestRockerText::
 	done
 
 _SafariZoneWestRockerEndBattleText::
-	text "Tu te joins"
-	line "à nous?"
+	text "Tu te"
+	line "joins à nous?"
 	prompt
 
 _SafariZoneWestRockerAfterBattleText::
@@ -174,7 +176,8 @@ _SafariZoneWestJugglerText::
 	done
 
 _SafariZoneWestJugglerEndBattleText::
-	text "Tous au bunker!"
+	text "Tous au"
+	line "bunker!"
 	prompt
 
 _SafariZoneWestJugglerAfterBattleText::
@@ -193,8 +196,9 @@ _SafariZoneWestPsychicText::
 	done
 
 _SafariZoneWestPsychicEndBattleText::
-	text "Leurs bavardages"
-	line "m'ont déconcentré!"
+	text "Leurs"
+	line "bavardages m'ont"
+	cont "déconcentré!"
 	prompt
 
 _SafariZoneWestPsychicAfterBattleText::

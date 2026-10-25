@@ -16,8 +16,9 @@ _SilphCo1FBattleText1::
 	done
 
 _SilphCo1FEndBattleText1::
-	text "Oh, tu n'es pas un"
-	line "<ROCKET>?"
+	text "Oh, tu"
+	line "n'es pas un"
+	cont "<ROCKET>?"
 	prompt
 
 _SilphCo1FAfterBattleText1::
@@ -42,7 +43,8 @@ _SilphCo1FBattleText2::
 	done
 
 _SilphCo1FEndBattleText2::
-	text "C'est dingue!"
+	text "C'est"
+	line "dingue!"
 	prompt
 
 _SilphCo1FAfterBattleText2::
@@ -56,9 +58,9 @@ _SilphCo1FBattleText3::
 	done
 
 _SilphCo1FEndBattleText3::
-	text "Attends, tu n'es"
-	line "pas l'un d'entre"
-	cont "eux?"
+	text "Attends,"
+	line "tu n'es pas l'un"
+	cont "d'entre eux?"
 	prompt
 
 _SilphCo1FAfterBattleText3::

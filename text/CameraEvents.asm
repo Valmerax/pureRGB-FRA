@@ -141,8 +141,8 @@ _Route8JolteonCameraAbsorbingText::
 
 _Route10FlareonText::
 	text "Un PYROLI se"
-	line "repose au bord de"
-	cont "la falaise."
+	line "repose au bord"
+	cont "de la falaise."
 	done
 
 _Route10FlareonCameraText::
