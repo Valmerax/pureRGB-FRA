@@ -181,7 +181,7 @@ StartBattle:
 	ld a, d
 	ld [wSerialExchangeNybbleReceiveData], a
 	ld a, [wIsInBattle]
-	dec a ; is it a trainer battle?
+	dec a ; is it a trainer battle? (not NO_BATTLE)
 	call nz, EnemySendOutFirstMon ; if it is a trainer battle, send out enemy mon
 	ld c, 40
 	rst DelayFrames
@@ -802,7 +802,7 @@ HandleEnemyMonFainted:
 	or [hl] ; is battle mon HP zero?
 	call nz, DrawPlayerHUDAndHPBar ; if battle mon HP is not zero, draw player HD and HP bar
 	ld a, [wIsInBattle]
-	dec a
+	dec a ; not NO_BATTLE
 	ret z ; return if it's a wild battle
 	call AnyEnemyPokemonAliveCheck
 	jp z, TrainerBattleVictory
@@ -6301,7 +6301,7 @@ LoadEnemyMonData:
 	jr z, .storeDVs
 ;;;;;;;;;;
 	ld a, [wIsInBattle]
-	cp $2 ; is it a trainer battle?
+	cp TRAINER_BATTLE
 ; fixed DVs for trainer mon
 	ld a, ATKDEFDV_TRAINER
 	ld b, SPDSPCDV_TRAINER
@@ -6371,7 +6371,7 @@ LoadEnemyMonData:
 	call CalcStats
 	pop hl
 	ld a, [wIsInBattle]
-	cp $2 ; is it a trainer battle?
+	cp TRAINER_BATTLE
 	jr z, .copyHPAndStatusFromPartyData
 	ld a, [wEnemyBattleStatus3]
 	bit TRANSFORMED, a ; is enemy mon transformed?
@@ -6454,7 +6454,7 @@ LoadEnemyMonData:
 	ld [de], a
 	inc de
 	ld a, [wIsInBattle]
-	cp $2 ; is it a trainer battle?
+	cp TRAINER_BATTLE
 	jr nz, .copyStandardMoves
 ; if it's a trainer battle, copy moves from enemy party data
 	ld hl, wEnemyMon1Moves
@@ -7071,7 +7071,7 @@ InitBattleCommon:
 	call CopyUncompressedPicToTilemap
 	ld a, $ff
 	ld [wEnemyMonPartyPos], a
-	ld a, $2
+	ld a, TRAINER_BATTLE
 	ld [wIsInBattle], a
 	jr _InitBattleCommon
 
@@ -7089,7 +7089,7 @@ InitWildBattle:
 	call z, MissingNoInit ; This handles item duplication code if we encountered missingno
 	callfar PreventInvalidEncounters
 ;;;;;;;;;;
-	ld a, $1
+	ld a, WILD_BATTLE
 	ld [wIsInBattle], a
 	call LoadEnemyMonData
 	call DoBattleTransitionAndInitBattleVariables

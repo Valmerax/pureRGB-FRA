@@ -384,7 +384,7 @@ BattleOccurred::
 	rst DelayFrames
 	jp EnterMap
 .allPokemonFainted
-	ld a, $ff
+	ld a, LOST_BATTLE
 	ld [wIsInBattle], a
 	call RunMapScript
 	jp HandleBlackOut
@@ -1882,7 +1882,7 @@ RunMapScript::
 	bit BIT_DEFER_SHOWING_MAP, a
 	ret z
 	ld a, [wIsInBattle]
-	cp $ff
+	cp LOST_BATTLE
 	ret z
 	jp MapFadeAfterBattle
 ;;;;;;;;;;
