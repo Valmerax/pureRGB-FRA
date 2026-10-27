@@ -137,7 +137,7 @@ CeladonCityLittleGirlText:
 .prettyCool
 	text_far_end _CeladonCityLittleGirlText3
 .littleGirlName
-	db "LITTLE GIRL@"
+	db "GAMINE@"
 
 
 CeladonSuitYourself::
@@ -213,7 +213,7 @@ CeladonCityFisherText:
 .letsDoThis
 	text_far_end _LetsDoThis
 .bigGuyName
-	db "GROS DUR@"
+	db "GRAND GAILLARD@"
 
 PoliwrathAnimation::
 	ld a, POLIWRATH
