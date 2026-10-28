@@ -368,7 +368,6 @@ TextShortcutCommandJumpTable:
 	dw PlaceDexEnd | TEXT_CODE_CMD_MARKER
 
 TrainerCharText:: db "DRES.@"
-EnemyText::       db " ennemi@"
 TeamCharText::    db "TEAM @"
 RocketCharText::  db "ROCKET@"
 ThreeDotsText::   db "...@"
@@ -376,6 +375,7 @@ TrainerTipsText:: db "ASTUCE@"
 OpponentText::    db "ennemi@"
 UserText::        db "lanceur@"
 PCCharText::      db "PC@"
+EnemyText::       db " ennemi@"
 ; these have to be separated by a comma in order to not re-trigger the charmap macro that sets them up to be used automatically
 UneText::         db "u", "ne@"
 QuiText::         db "q", "ui@"
