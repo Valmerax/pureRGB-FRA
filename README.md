@@ -2,7 +2,7 @@
 
 ![covers](/box_art/PureRGB_Covers.png?raw=true)
 
-Une amélioration puriste de Pokémon Rouge, Vert et Bleu basée sur la décompilation de pokered.
+Une amélioration puriste de Pokémon Rouge, Verte et Bleue basée sur la décompilation de pokered.
 
 Cette version est traduite en français à partir des traductions de einstein95/pokered-fr pour les textes du jeu original et de mes propres traductions pour les textes exclusifs à pureRGB.
 Aucune autre modification sera faite, l'idée étant de rester fidèle au projet d'origine.
@@ -19,12 +19,12 @@ Pour tout autre bug ou problème en jeu, signalez-le [**ici**](https://github.co
 
 Si vous avez terminer cette romhack et voulez laisser un avis, vous pouvez le faire [**ici**](https://github.com/Vortyne/pureRGB/issues/new?assignees=&labels=review&projects=&template=review.yml&title=%5BReview%5D%3A+Summarize+your+review+here).
 
-Ceci est une amélioration puriste de Pokemon Rouge/Bleu/Vert. L'objectif est d'améliorer les jeux originaux pour une excellente rejouabilité sans introduire de mécaniques, capacités, sprites, visuels, types ou pokémon qui ont été introduits dans les jeux ultérieurs.
+Ceci est une amélioration puriste de Pokemon Rouge/Verte/Bleue. L'objectif est d'améliorer les jeux originaux pour une excellente rejouabilité sans introduire de mécaniques, capacités, sprites, visuels, types ou pokémon qui ont été introduits dans les jeux ultérieurs.
 
 - Cela rend la majorité des 151 pokémon originaux beaucoup plus accessibles et utilisables en début de jeu, avec de meilleurs ensembles de capacités et des statistiques plus équilibrées.
 - Beaucoup de capacités du jeu ont été rééquilibrés ou modifiés. Quand je dis « rééquilibré », je veux dire « les choses inutiles ont été rendues plus utiles ! »
 - Il y a plus de capacités de type insecte, poison et spectre disponibles. L'accent est mis sur l'obtention d'un ensemble utile de capacités disponibles pour chaque pokémon du jeu.
-- Les sprites de face ont été mis à jour pour être pratiquement le meilleur ensemble de sprites de Rouge/Vert/Bleu/Spaceworld 1997.
+- Les sprites de face ont été mis à jour pour être pratiquement le meilleur ensemble de sprites de Rouge/Verte/Bleue/Spaceworld 1997.
 - Les 151 pokémon sont tous accessibles dans toutes les versions de ce hack.
 - Les CS peuvent être supprimées à tout moment et un nouveau code a été introduit pour prévenir les blocages en les supprimant.
 - Certains pokémon ont des types supplémentaires, par exemple, Feunard est maintenant FEU/SPECTRE au lieu de FEU. Si vous n'appréciez pas certains changements de type, vous pouvez modifier le type de n'importe quel Pokémon ou de tous auprès d'un PNJ sur la route 23 du Plateau Indigo.
@@ -91,4 +91,4 @@ Mord - La majeure partie du travail de création des sprites de Major Bob et Eri
 
 NarishmaGB - Informations sur la façon de réduire les données de bordure SGB pour économiser 900 octets.
 
-pret discord et pret en général pour leur travail de décompilation sur Rouge / Bleu.
+pret discord et pret en général pour leur travail de décompilation sur Red / Blue.

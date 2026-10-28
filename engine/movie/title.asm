@@ -634,7 +634,7 @@ PrintGameVersionOnTitleScreen:
 
 ; these point to special tiles specifically loaded for that purpose and are not usual text
 VersionOnTitleScreenText:
-	db $E0,$E1,$E2,$E3,$E4,$E5,$E6,$E7,$E8,$E9,"@" ; "Version Verte" or "Version Rouge" or "Version Bleue"
+	db $E0,$E1,$E2,$E3,$E4,$E5,$E6,$E7,$E8,$E9,"@" ; "Version Rouge" or "Version Verte" or "Version Bleue"
 
 ; In the PureRGB title screen, we will make the player's image only partially a sprite to free up space in OAM
 ; This prevents sliding pokemon across the screen behind the player at the moment (may change later)

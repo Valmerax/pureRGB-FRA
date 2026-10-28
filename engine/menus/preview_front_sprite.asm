@@ -117,7 +117,7 @@ RedBlueText:
 	next " International@"
 
 RedGreenText:
-	db "  Rouge/Vert"
+	db "  Rouge/Verte"
 	next "   Japonais@"
 
 YellowText:

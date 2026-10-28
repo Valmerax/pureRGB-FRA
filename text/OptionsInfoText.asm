@@ -176,7 +176,7 @@ _FrontSpriteText::
 ;	cont "utiliser pour ce"
 ;	cont "#MON."
 ;	para "RV: Sprite"
-;	line "ROUGE/VERT"
+;	line "ROUGE/VERTE"
 ;	cont "Japonais."
 ;	para "RB: Sprite"
 ;	line "ROUGE/BLEUE"
