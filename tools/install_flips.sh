@@ -9,9 +9,9 @@ tmp="$(mktemp -d)"
 trap 'rm -rf "$tmp"' EXIT
 
 cd "$tmp"
-curl -fsSL -o flips.tar.gz https://github.com/Alcaro/Flips/tarball/v198
+curl -fsSL -o flips.tar.gz https://github.com/Sir-Walrus/Flips/tarball/v198
 tar -xzf flips.tar.gz
-cd Alcaro-Flips-*
+cd Sir-Walrus-Flips-*
 
 TARGET=cli make
 install -m 755 flips "$HOME/.local/bin/flips"

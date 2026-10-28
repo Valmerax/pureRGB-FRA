@@ -3,7 +3,7 @@
 #
 # Requirements:
 #   - make, rgbds (see INSTALL.md)
-#   - Floating IPS (flips): https://github.com/Alcaro/Flips/releases/latest
+#   - Floating IPS (flips): https://github.com/Sir-Walrus/Flips/releases/latest
 #     Run tools/install_flips.sh to install flips into WSL without sudo.
 #
 # Base ROMs (unmodified) must live one directory above this project:
@@ -91,9 +91,9 @@ create_patch() {
 	"$FLIPS" --create "$base" "$built" "$patch"
 }
 
-create_patch PureRed "$RED_BASE" "$ROOT/pokered.gbc"
-create_patch PureBlue "$BLUE_BASE" "$ROOT/pokeblue.gbc"
-create_patch PureGreen "$GREEN_BASE" "$ROOT/pokegreen.gbc"
+create_patch RougePure "$RED_BASE" "$ROOT/pokered.gbc"
+create_patch BleuePure "$BLUE_BASE" "$ROOT/pokeblue.gbc"
+create_patch VertePure "$GREEN_BASE" "$ROOT/pokegreen.gbc"
 
 echo
 echo "Release files written to: $RELEASE_DIR"
