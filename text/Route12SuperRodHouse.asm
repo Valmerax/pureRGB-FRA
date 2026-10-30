@@ -36,7 +36,7 @@ _LastTwoGurusFishingGuideReceived::
 _LastTwoGurusFishingGuideInfo::
 	text "Maintenant que tu"
 	line "as ton propre"
-	line "GUIDE DE PECHE,"
+	cont "GUIDE DE PECHE,"
 	cont "ton #DEX"
 	cont "t'indiquera les"
 	cont "lieux de pêche"

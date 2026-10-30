@@ -9,8 +9,8 @@ _CeladonMart1FReceptionistText::
 	cont "différents rayons"
 	cont "du magasin."
 
-	para "Ravi de vous"
-	line "aider!"
+	para "Je serais ravie"
+	line "de vous aider!"
 	done
 
 _CeladonMart1FReceptionistText2::
@@ -18,7 +18,7 @@ _CeladonMart1FReceptionistText2::
 	done
 
 _CeladonMart1FCurrentFloorSignText::
-	text "RDC: "
+	text "RDC:"
 	line "RENSEIGNEMENTS"
 	done
 
@@ -82,7 +82,7 @@ _CeladonMartRoofCurrentFloorClerkText::
 _CeladonMartUsePhoneText::
 	text "Utiliser la cabine"
 	line "téléphonique?"
-	line "C'est 25¥."
+	cont "C'est 25¥."
 	done
 
 _GenericForgetItText::

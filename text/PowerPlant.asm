@@ -19,7 +19,7 @@ _PowerPlantElectricityText::
 	line "ques bloquent le"
 	cont "passage."
 	para "Peut-on couper le"
-	cont "courant?"
+	line "courant?"
 	done
 
 _ZapdosFlewAway::

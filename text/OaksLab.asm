@@ -147,7 +147,7 @@ _OaksLabGivePokeballsExplanationText::
 
 	para "Lance-lui une"
 	line "# BALL pour le"
-	line "capturer!"
+	cont "capturer!"
 
 	para "Mais ça ne"
 	line "marchera pas à"

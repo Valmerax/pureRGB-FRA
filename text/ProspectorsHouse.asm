@@ -36,7 +36,7 @@ _ProspectorsHousePaperText2::
 _ProspectorsHouseProspectorText1::
 	text "Te voilà!"
 	para "Merci encore,"
-	cont "petit!"
+	line "petit!"
 	para "Tu m'as bien aidé"
 	line "à dénicher ces"
 	cont "diamants!"

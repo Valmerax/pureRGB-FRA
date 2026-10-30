@@ -50,7 +50,7 @@ _Route22Rival1VictoryText::
 	cont "#MON?"
 
 	para "Tu devrais"
-	cont "aussi en choper"
+	line "aussi en choper"
 	cont "d'autres,"
 	cont "minable!"
 	prompt
