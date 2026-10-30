@@ -45,7 +45,7 @@ CeladonMartDirectoryMenu:
 	lb bc, 11, 5
 	call TextBoxBorder
 	hlcoord 7, 0
-	lb bc, 1, 10
+	lb bc, 3, 11
 	call TextBoxBorderUpdateSprites
 	hlcoord 2, 1
 	ld de, CeladonDirectoryMenu
@@ -90,13 +90,15 @@ CeladonDirectoryMenu:
 	next "2ème"
 	next "3ème"
 	next "4ème"
-	next "DERNIER ETAGE@"
+	next "TOIT@"
 
 CeladonDirectoryText:
-	db "INFOS MAGASIN@"
+	db "INFO CENTRE"
+	next "COMMERCIAL@"
 
 CeladonDirectoryClerkText:
-	db "Je vais t'aider!@"
+	db " Ravie de"
+	next "vous aider!@"
 
 ShowDeptStoreFloorInfo::
 	ld hl, ShowDeptStoreTextEntry.floorTextData
