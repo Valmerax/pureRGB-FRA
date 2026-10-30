@@ -328,8 +328,8 @@ _BallDesignerPidgeotReaction::
 	prompt
 
 _BallDesignerGrimerReaction::
-	text "C'est à la fois"
-	line "mignon et toxique!"
+	text "C'est mignon mais"
+	line "aussi toxique!"
 	prompt
 
 _BallDesignerGastlyReaction::
@@ -349,9 +349,9 @@ _BallDesignerLassReaction::
 	prompt
 
 _BallDesignerMankeyReaction::
-	text "Il a l'air si en"
-	line "colère qu'il"
-	cont "pourrait exploser!"
+	text "Il a l'air très en"
+	line "colère, on dirait"
+	cont "qu'il va exploser!"
 	prompt
 
 _BallDesignerGamblerReaction::
