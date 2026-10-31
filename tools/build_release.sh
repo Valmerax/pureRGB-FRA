@@ -91,9 +91,9 @@ create_patch() {
 	"$FLIPS" --create "$base" "$built" "$patch"
 }
 
-create_patch RougePure "$RED_BASE" "$ROOT/pokered.gbc"
-create_patch BleuePure "$BLUE_BASE" "$ROOT/pokeblue.gbc"
-create_patch VertePure "$GREEN_BASE" "$ROOT/pokegreen.gbc"
+create_patch RougePur "$RED_BASE" "$ROOT/pokered.gbc"
+create_patch BleuPur "$BLUE_BASE" "$ROOT/pokeblue.gbc"
+create_patch VertPur "$GREEN_BASE" "$ROOT/pokegreen.gbc"
 
 echo
 echo "Release files written to: $RELEASE_DIR"

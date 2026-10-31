@@ -1,4 +1,4 @@
-# Pokémon PureRGB (PureRed, PureGreen, PureBlue)
+# Pokémon PurRVB (RougePur, VertPur, BleuPur)
 
 ![covers](/box_art/PureRGB_Covers.png?raw=true)
 
@@ -7,13 +7,13 @@ Une amélioration puriste de Pokémon Rouge, Verte et Bleue basée sur la décom
 Cette version est traduite en français à partir des traductions de einstein95/pokered-fr pour les textes du jeu original et de mes propres traductions pour les textes exclusifs à pureRGB.
 Aucune autre modification sera faite, l'idée étant de rester fidèle au projet d'origine.
 
-Pour télécharger la dernière version de cette romhack, [**allez ici**](https://github.com/Vortyne/pureRGB/releases/latest).
+Pour télécharger la dernière version de cette romhack, [**allez ici**](https://github.com/Valmerax/purRVB/releases/latest).
 
 Pour voir la liste complète des fonctionnalités, corrections de bugs et tout le reste, consultez [**FEATURES.md**](FEATURES.md).
 
 Si vous voulez des informations sur le jeu pendant que vous le jouez (par exemple, les capacités disponibles), consultez [**Le Wiki**](https://github.com/Vortyne/pureRGB/wiki).
 
-Si vous rencontrez un bug ou un problème lié à la traduction française, signalez-le [**ici**](https://discord.com/channels/1558849314644697238/1558851662221672489) (serveur discord pureRGB-FRA de Valmerax).
+Si vous rencontrez un bug ou un problème lié à la traduction française, signalez-le [**ici**](https://discord.com/channels/1558849314644697238/1558851662221672489) (serveur discord PurRVB).
 
 Pour tout autre bug ou problème en jeu, signalez-le [**ici**](https://github.com/Vortyne/pureRGB/issues/new?assignees=&labels=&template=blank_issue.md). (Dépôt pureRGB de Vortyne).
 
@@ -28,7 +28,7 @@ Ceci est une amélioration puriste de Pokemon Rouge/Verte/Bleue. L'objectif est 
 - Les 151 pokémon sont tous accessibles dans toutes les versions de ce hack.
 - Les CS peuvent être supprimées à tout moment et un nouveau code a été introduit pour prévenir les blocages en les supprimant.
 - Certains pokémon ont des types supplémentaires, par exemple, Feunard est maintenant FEU/SPECTRE au lieu de FEU. Si vous n'appréciez pas certains changements de type, vous pouvez modifier le type de n'importe quel Pokémon ou de tous auprès d'un PNJ sur la route 23 du Plateau Indigo.
-- [Nombreux petits réglages de qualité de vie et corrections de bugs](https://github.com/Vortyne/pureRGB/blob/master/FEATURES.md#quality-of-life-enhancements) ont été apportés.
+- [Nombreux petits réglages de qualité de vie et corrections de bugs](https://github.com/Valmerax/purRVB/blob/master/FEATURES.md#quality-of-life-enhancements) ont été apportés.
 - Les bugs du jeu qui peuvent être utilisés à votre avantage (comme le bug vampigraine/toxic, le bug d'Ultralaser sans tour de recharge du rayon hyper en cas de KO, etc.) sont inchangés, car ce sont des bizarreries du moteur de combat que vous pouvez utiliser à votre avantage.
 - Mew est sous le camion comme prévu !
 - Missingno et le glitch de duplication d'objets sont intacts - mais ne corrompront plus votre sauvegarde !
@@ -38,7 +38,7 @@ Ceci est une amélioration puriste de Pokemon Rouge/Verte/Bleue. L'objectif est 
 - Il y a une arène pour affronter à nouveau les champions d'arène et d'autres dresseurs importants après être devenu CHAMPION.
 - Entraînez rapidement vos Pokémon de bas niveau jusqu'au niveau maximum dans les CLUBS ! Vous pouvez les trouver à Carmin-sur-Mer, Céladopole et Safrania. Vous pouvez désactiver cette fonction.
 - Il y a de multiples zones secrètes à découvrir après être devenu CHAMPION. Le Jardin de LEO, l'histoire de la Team Rocket / Mewtwo, et bien d'autres...
-- [De nombreuses options pour améliorer le jeu visuellement et mécaniquement ont été ajoutées.](https://github.com/Vortyne/pureRGB/blob/master/FEATURES.md#new-options-in-the-options-menu) **(Vous devez les activer via les options en jeu !)** Notamment :
+- [De nombreuses options pour améliorer le jeu visuellement et mécaniquement ont été ajoutées.](https://github.com/Valmerax/purRVB/blob/master/FEATURES.md#new-options-in-the-options-menu) **(Vous devez les activer via les options en jeu !)** Notamment :
   - Palettes de couleurs commutables (Choisissez entre les couleurs originales, les couleurs Super Gameboy ou les couleurs Pokemon Jaune dans le jeu quand vous le souhaitez ! Fonctionne sur GBC et Super Gameboy. Oui, cette romhack a un support GBC !).
   - Sprites de dos Spaceworld 1997 optionnels.
   - Sprites de menu améliorés/icônes optionnels.
@@ -54,7 +54,7 @@ Ceci est une amélioration puriste de Pokemon Rouge/Verte/Bleue. L'objectif est 
   - Option pour les unités métriques ou impériales dans le Pokédex.
   - Option pour moins de scintillement en combats.
   - Option pour sauter l'animation d'introduction au démarrage du jeu et aller directement à l'écran titre.
-  - Option pour passer à un écran titre PureRGB entièrement nouveau au lieu de celui du jeu original.
+  - Option pour passer à un écran titre PurRVB entièrement nouveau au lieu de celui du jeu original.
 - Si vous jouez sur GBC et avez définie les palettes en mode SGB ou GBC, les animations des capacités auront des couleurs ! Surf sera bleu, Brûlûre sera rouge, etc.
 - Quelques nouvelles fonctionnalitées ont été ajoutées au jeu pour faciliter la manière de jouer. Notamment :
   - Un PNJ capable de couper définitivement les arbres (Ceux pouvant être coupés via la CS COUPE).
