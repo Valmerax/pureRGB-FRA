@@ -1,6 +1,6 @@
 GetFloorName::
 	ld hl, FloorNames
-	ld bc, 4
+	ld bc, 12
 GetFixedLengthString::
 	ld a, [wNamedObjectIndex]
 	call AddNTimes

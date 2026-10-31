@@ -85,12 +85,12 @@ DisplayElevatorFloorMenu::
 	ld [hli], a ; destination map ID
 	ret
 .printCurrentFloor
-	; make the "Current: " text box
-	hlcoord 4, 0
-	lb bc, 1, 14
+	; make the "Actuel: " text box
+	hlcoord 0, 0
+	lb bc, 1, 18
 	call TextBoxBorderUpdateSprites
 	call DisableTextDelay
-	hlcoord 5, 1
+	hlcoord 1, 1
 	ld de, CurrentFloorText
 	call PlaceString
 	; find which floor we're on and print it
@@ -115,7 +115,7 @@ DisplayElevatorFloorMenu::
 	ld a, [hl] ; which floor we're on
 	ld [wNamedObjectIndex], a
 	callfar GetFloorName
-	hlcoord 14, 1
+	hlcoord 9, 1
 	call PlaceString
 	jp EnableTextDelay
 
